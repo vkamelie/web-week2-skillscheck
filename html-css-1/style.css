@@ -1,0 +1,42 @@
+ header{
+       height: 80px;
+       background: grey;
+       display: flex;
+      flex-direction: row;
+     flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            align-content: center;
+            
+   }
+   
+   header > div{
+       height: 100%;
+       width: 100%;
+       max-width: 1000px;
+       background: grey;
+       margin: 0 auto;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       align-self: stretch;
+       
+   }
+
+   header ul{
+    display: flex;
+    
+}
+.company{
+    font-size: 25px;
+}
+
+ul li{
+    margin: 10px;
+}
+
+header ul li a {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
